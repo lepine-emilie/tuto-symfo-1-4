@@ -1,0 +1,38 @@
+Mar 20 09:43:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 20 09:43:41 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\storage\sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 20 09:43:41 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\storage\sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 20 09:43:41 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\storage\sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 20 09:43:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 09:43:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 09:43:42 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 20 09:43:42 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\plugins\sfDoctrinePlugin\lib\vendor\doctrine\Doctrine\Query\Tokenizer.php on line 96 ("continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"?)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\util\sfToolkit.class.php:351))
+Mar 20 09:43:46 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\util\sfToolkit.class.php:351))
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\util\sfToolkit.class.php:351))
+Mar 20 09:43:46 symfony [info] {sfWebResponse} Send status "HTTP/2.0 500 Internal Server Error"
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\util\sfToolkit.class.php:351))
+Mar 20 09:43:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 20 09:43:46 symfony [info] {sfWebDebugLogger} Configuration 1505.45 ms (9)
+Mar 20 09:43:46 symfony [info] {sfWebDebugLogger} Factories 1359.37 ms (1)
+Mar 20 09:43:46 symfony [info] {sfWebDebugLogger} Action "job/index" 4163.31 ms (1)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:43:46 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\yaml\sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 20 09:44:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Mar 20 09:44:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 20 09:44:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 20 09:44:32 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Mar 20 09:44:32 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\plugins\sfDoctrinePlugin\lib\vendor\doctrine\Doctrine\Query\Tokenizer.php on line 96 ("continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"?)
+Mar 20 09:44:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 20 09:44:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.category_id AS j__category_id, j.type AS j__type, j.company AS j__company, j.logo AS j__logo, j.url AS j__url, j.position AS j__position, j.location AS j__location, j.description AS j__description, j.how_to_apply AS j__how_to_apply, j.token AS j__token, j.is_public AS j__is_public, j.is_activated AS j__is_activated, j.email AS j__email, j.expires_at AS j__expires_at, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_job j - ()
+Mar 20 09:44:32 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 20 09:44:32 symfony [warning] {sfWebDebugLogger}  Warning at E:\projets epitech\tuto-symfo-1-4\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 20 09:44:32 symfony [info] {sfPHPView} Render "E:\projets epitech\tuto-symfo-1-4\apps\frontend\modules/job/templates/indexSuccess.php"
