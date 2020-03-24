@@ -1,7 +1,9 @@
 <!-- apps/frontend/modules/job/templates/showSuccess.php -->
 <?php use_stylesheet('job.css') ?>
 <?php use_helper('Text') ?>
-
+<title>
+    <?php include_slot('title', 'Jobeet - Your best job board') ?>
+</title>
 <div id="job">
     <h1><?php echo $job->getCompany() ?></h1>
     <h2><?php echo $job->getLocation() ?></h2>
